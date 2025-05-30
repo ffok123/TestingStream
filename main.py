@@ -10,7 +10,7 @@ st.subheader("Course: COMP 4145")
 st.text("Lab 2 exercise")
 
 # Add a markdown link and separator
-st.markdown("[HKBU email](mailto:wyfok@hkbu.edu.hk)")
+st.markdown("[Email](mailto:xxx@hkbu.edu.hk)")
 st.markdown("---")
 st.markdown("**My first** *program*")
 
@@ -20,7 +20,7 @@ st.markdown("**My first** *program*")
 st.write("Hello world")
 
 # File uploader widget to allow users to upload a file
-uploaded_file = st.file_uploader("Choose a file", type="csv")
+uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 
 # Check if a file has been uploaded
 if uploaded_file is not None:
