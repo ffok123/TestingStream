@@ -20,7 +20,7 @@ st.markdown("**My first** *program*")
 st.write("Hello world")
 
 # File uploader widget to allow users to upload a file
-uploaded_file = st.file_uploader("Choose a file", type=["csv", "txt", "xlsx"])
+uploaded_file = st.file_uploader("Choose a file", type="csv")
 
 # Check if a file has been uploaded
 if uploaded_file is not None:
